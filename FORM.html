@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place your Order PIZZA</title>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="C:\Users\Hp\Desktop\Assignment1 html\images\icon.jpeg" type="image/x-icon"/>    <!-- icon for tab -->
+    <link rel="stylesheet" href="C:\Users\Hp\Desktop\Assignment1 html\css\form.css"/>  <!-- external css -->
+  </head>
+
+  <body>
+    <header >     <!-- header -->
+     <img src="images/header.jpg" alt="header" height="500px" width="100%" >   <!-- header image -->
+      <h1> <strong> <u>PIZZA-PIZZA </u> </strong> </h1>
+      <h2 > ORDER FORM</h2>
+   </header>
+   <main>   <!-- main content -->
+   <form>   <!-- form  tag -->
+
+     <fieldset>  <!-- fieldset tag  for form  asking questions from user about pizza -->
+      <legend><h2><u><em>
+	    <label for="crust">Start by selecting your favorite crust.</label></em></u></h2></legend>
+      <select name="crust" id="crust">  <!-- select tag  providing options  for crust -->
+        <option value="original-crust">Original Crust</option>
+        <option value="epic-stuffed-crust">Epic Stuffed Crust</option>
+        <option value="thin-crust">Thin Crust</option>
+        <option value="gluten-free">Gluten Free Crust</option>
+      </select><!-- select tag close -->
+     </fieldset>
+  
+
+    
+     <fieldset> <!-- fieldset tag  for form  asking questions from user about base -->
+	
+      <legend><h2><em><u>Create a Base</u></em></h2><img src="C:\Users\Hp\Desktop\Assignment1 html\images\heat.jpg" width="500px" height="150px" alt="Base" /></legend>
+	    <h3><u> Size </u></h3> <br><!-- Size  for crust  -->
+      <input type="radio" name="size" id="small-size" value="small-size">
+      <label for="small-size">Small</label>
+      <input type="radio" name="size" id="medium-size" value="medium-size">
+      <label for="medium-size">Medium</label>
+      <input type="radio" name="size" id="large-size" value="large-size">
+      <label for="large-size">Large</label>
+      <input type="radio" name="size" id="extra-large-size" value="extra-large-size">
+      <label for="extra-large-size">Extra Large</label>
+      <br>
+      
+     
+      <h3><u>Crust Flavor</u></h3><br> <!-- Crust  flavour for crust  -->
+      <input type="radio" name="crust-flavor" id="flavor-none" value="flavor-none">
+      <label for="flavor-none">None</label>
+      <input type="radio" name="crust-flavor" id="flavor-garlic" value="flavor-garlic">
+      <label for="flavor-garlic">Garlic Parmesean Cheese</label><br>
+      <br>
+     
+	  
+	  
+	 
+      <h3><u>Bake</u></h3> <!-- Bake  level for crust  -->
+      <input type="radio" name="bake" id="normal-bake" value="normal-bake">
+      <label for="bake">Normal Bake</label><br><br>
+      <input type="radio" name="bake" id="well-done" value="well-done">
+      <label for="normal-bake">Well Done</label><br><br>
+      <br>
+    
+	   </fieldset>
+	
+	
+	   <fieldset><!-- fieldset tag  for form  asking questions from user about cheese -->
+	
+      <legend><h2><em><u>Cheese</u></em></h2><img src="images/cheese.jpeg" width="500px" height="150px" alt="cheese" /></legend>
+	    <h3><u>How much cheese</u></h3><!-- cheese  level for crust  -->
+      <input type="radio" name="cheese" id="normal-cheese" value="normal-cheese">
+      <label for="normal-cheese">Normal Cheese</label>
+      <input type="radio" name="cheese" id="light-cheese" value="light-cheese">
+      <label for="light-cheese">Light Cheese</label>
+      <input type="radio" name="cheese" id="no-cheese" value="no-cheese">
+      <label for="lno-cheese">No Cheese</label>
+      <br>
+      
+	    <h3><u>Additional Cheese Topping</u></h3><br>  <!-- Additional cheese topping  level for crust  -->
+      <input type="checkbox" name="cheese" id="parmesean" value="parmesean">
+      <label for="parmesean">Parmesean Romano</label><br><br>
+      <input type="checkbox" name="cheese" id="3-cheese-blend" value="3-cheese-blend">
+      <label for="3-cheese-blend">3-Cheese Blend</label><br><br>
+      <br>
+    
+	   </fieldset>
+	
+
+	   <fieldset>  <!-- fieldset tag  for form  asking questions from user about sauce -->
+      <legend><h2><u><em>Sauce</em></u></h2><img src="images/SAUSE.jpeg" width="500px" height="150px" alt="Sauce" /></legend> <br>
+      <input type="checkbox" name="sauce" id="none" value="none" checked>
+      <label for="none">None</label>
+      <input type="checkbox" name="sauce" id="BBQ" value="BBQ">
+      <label for="BBQ">BBQ</label>
+      <input type="checkbox" name="sauce" id="ranch" value="ranch">
+      <label for="ranch">Ranch</label>
+      <input type="checkbox" name="sauce" id="original" value="original">
+      <label for="original">Original</label>
+      <input type="checkbox" name="sauce" id="buffalo" value="buffalo">
+      <label for="buffalo">Buffalo</label>
+      <input type="checkbox" name="sauce" id="alfredo" value="alfredo">
+      <label for="alfredo">Alfredo</label>
+      <br>
+     </fieldset>
+    
+	   <fieldset>  <!-- fieldset tag  for form  asking questions from user about meat -->
+      <legend><h2><u><em>Meats</em></u></h2><img src="images/MEAT.jpeg" width="500px" height="150px" alt="meat" /></legend> <br>
+    
+      <input type="checkbox" name="meats" id="meatball" value="meatball">
+      <label for="meatball">Meatball</label>
+      <input type="checkbox" name="meats" id="spicy-italian-sausage" value="spicy-italian sausage">
+      <label for="spicy-italian sausage">Spicy Italian Sausage</label>
+      <input type="checkbox" name="meats" id="sausage" value="sausage">
+      <label for="sausage">Sausage</label>
+      <input type="checkbox" name="meats" id="salami" value="salami">
+      <label for="salami">Salami</label>
+      <input type="checkbox" name="meats" id="beef" value="beef">
+      <label for="beef">Beef</label>
+      <input type="checkbox" name="meats" id="grilled-chicken" value="grilled-chicken">
+      <label for="grilled-chicken">Grilled Chicken</label>
+      <input type="checkbox" name="meats" id="canadian-bacon" value="canadian-bacon">
+      <label for="canadian-bacon">Canadian Bacon</label>
+      <input type="checkbox" name="meats" id="philly-steak" value="philly-steak">
+      <label for="philly-steak">Philly Steak</label><br><br>
+      <input type="checkbox" name="meats" id="pepperoni" value="pepperoni">
+      <label for="pepperoni">Pepperoni</label>
+      <input type="checkbox" name="meats" id="anchovies" value="anchovies">
+      <label for="anchovies">Anchovies</label>
+      <input type="checkbox" name="meats" id="bacon" value="bacon">
+      <label for="bacon">Bacon</label>
+     </fieldset>	  
+
+    
+     <fieldset><!-- fieldset tag  for form  asking questions from user about veggies -->
+      <legend><h2><u><em>Veggies</em></u></h2><img src="images/VEGGIOES.jpeg" width="500px" height="150px" alt="VEGGIES" /></legend> <br>
+      <input type="checkbox" name="veggies" id="roma-tomatoes" value="roma-tomatoes">
+      <label for="roma-tomatoes">Roma Tomatoes</label>
+      <input type="checkbox" name="veggies" id="mushrooms" value="mushrooms">
+      <label for="mushrooms">Mushrooms</label>
+      <input type="checkbox" name="veggies" id="pineapple" value="pineapple">
+      <label for="pineapple">Pineapple</label>
+      <input type="checkbox" name="veggies" id="green-chiles" value="green-chiles">
+      <label for="green-chiles">Green Chiles</label>
+      <input type="checkbox" name="veggies" id="jalepeno-peppers" value="jalepeno-peppers">
+      <label for="jalepeno-peppers">Jalepeno Peppers</label>
+      <input type="checkbox" name="veggies" id="onions" value="onions">
+      <label for="onions">Onions</label>
+      <input type="checkbox" name="veggies" id="green-peppers" value="green-peppers">
+      <label for="green-peppers">Green Peppers</label><br><br>
+      <input type="checkbox" name="veggies" id="banana-peppers" value="banana-peppers">
+      <label for="banana-peppers">Banana Peppers</label>
+      <input type="checkbox" name="veggies" id="fresh-spinach" value="fresh-spinach">
+      <label for="fresh-spinach">Fresh Spinach</label>
+      <input type="checkbox" name="veggies" id="black-olives" value="black-olives">
+      <label for="black-olives">Black Olives</label>
+     </fieldset><!-- fieldset tag close -->
+       
+     <fieldset>  <!-- fieldset tag  for form  asking questions from user about contact information -->
+      <legend><h2><u><em>Contact Information:</em></u></h2></u> <img src="images/contact.png" width="500px" height="150px" alt="CONTACT" /></legend> <br>
+      <div>  <!-- div tag  for name and email-->
+       <label for="name">Name: </label>  <!-- label tag  for name-->
+       <input type="text" id="name" required /><br><br>
+       <label for="email">email: </label>  <!-- label tag  for email-->
+       <input type="email" id="email"  required/>
+       <label for="phone">Phone: </label>
+       <input type="tel" id="phone"  required/><br><br>
+      </div><!-- div tag close-->
+      <label for="address1" >Adress line 1: </label>
+      <input type="text" id="address1" /><br><br>
+      <label for="address2" >Adress line 2: </label> 
+      <input type="text" id="address2" /><br><br>
+      <label for="code" >Postal Code:</label> 
+      <input type="text" id="code" />
+      <label for="city" >City</label><!-- label tag  for city-->
+      <select name="city" id="city"><!-- select tag  for city providing options-->
+        <option value="none">Select City</option>
+        <option value="Brampton">Brampton</option>
+        <option value="Toronto">Toronto</option>
+        <option value="Mississauga">Mississauga</option>
+      </select><br><br>
+     </fieldset><!-- fieldset tag close -->
+     <fieldset text-align="center"> <!-- fieldset tag  for form  asking questions from user about submit and reset -->
+      <legend><h2><u><em>Next Step:</em></u></h2></legend>
+      <input type="submit" value="send"> <!-- submit button-->
+	    <input type="reset" value="reset"></footer> <!-- reset button -->
+     </fieldset><!-- fieldset tag close -->
+
+   </form><!-- form close -->
+  </main><!-- main content close -->
+   
+
+
+   <footer><!-- footer tag -->
+    <h2><strong>"It's TIME to eat PIZZA :-) "</strong></h2>->
+    <h2><strong>"ENJOY PIZZA"</strong></h2>->
+   
+   </footer><!-- footer tag close -
+  </body><!-- body close -->
+</html>

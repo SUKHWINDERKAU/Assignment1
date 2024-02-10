@@ -1,0 +1,72 @@
+
+<html > /* c:/Users/Hp/Desktop/Assignment1 html/FORM.html */
+
+<head>
+@charset "UTF-8";
+/* Basic Page Styles */
+/* font-family: 'Cabin Sketch', cursive;*/
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
+
+body{                                           /* body style  setting font family , background color  , margin and padding  */
+  font-family:Patrick Hand SC;
+  font-size:25px;
+  background-color: rgb(8, 79, 79);
+  margin: auto;
+  padding: 0 30px 30px 30px;
+  border: 5px solid rgb(170, 67, 67);
+}
+header
+{                                               /* header style  setting  text align ,text shadow  , margin and padding  */
+  
+	margin:auto;
+	padding: 20px 0;
+	color: #6e4805;
+  text-align: center;
+  text-shadow:#211e1e;
+}
+h1{                                               /* h1 style  setting font family , font size and text align */
+	align-content: center;
+   font-family:Cabin Sketch;
+   font-size:80px;
+}
+h2{                                               /* h2 style  setting font family , font size  */
+	
+   font-family:Cabin Sketch;
+   font-size:40px;
+}
+h3{                                             /* h3 style  setting font family , font size  */
+	
+  font-family:Cabin Sketch;
+  font-size:20px;
+}
+main{                                           /* main style  setting  margin and padding and width */
+  margin:auto;
+  padding: 20px 0;
+  width:auto;
+
+}
+
+form{                                             /* form style  setting background color , border radius , height , width , margin and padding */
+  background-color:#211e1e;
+  color:white;
+  border-radius:5px;
+  height:auto;
+  width:60%;
+  margin: auto;
+  padding: 0 50px 50px 50px;
+  border: 10px solid rgb(163, 103, 57);
+}
+
+input{                                                 /* input style  setting font family , font size and font weight */
+  font-family:Waiting for the Sunrise;
+  font-size:17px;
+  font-weight:bold;
+}
+footer                                                    /* footer style  setting  text align  ,color , margin and padding  */
+{
+ 
+	margin:0cap;
+	padding: 20px 0;
+  text-align: center;
+  color:#6e4805
+}
